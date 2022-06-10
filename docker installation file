@@ -5,4 +5,8 @@ sudo apt update -y
 sudo apt install docker.io -y
 sudo usermod -aG docker ubuntu
 sudo su - ubuntu
+
+#install maven which will come with java installed as dependency.
+sudo apt install maven -y
+
 #end of installation.
