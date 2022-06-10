@@ -1,0 +1,8 @@
+#use an ubuntu instance for this tool - default settings for free tier
+#!/bin/bash
+sudo hostnamectl set-hostname docker
+sudo apt update -y
+sudo apt install docker.io -y
+sudo usermod -aG docker ubuntu
+sudo su - ubuntu
+#end of installation.
